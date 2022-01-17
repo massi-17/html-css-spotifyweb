@@ -72,8 +72,8 @@ a {
 }
 
 #toolbar {
-    min-height: 85px;
-    width: 100%;
+    height: 85px;
+    width: 100vw;
     opacity: 0.9;
     background-color: #161616;
     overflow: hidden;
@@ -83,12 +83,15 @@ a {
     z-index: 999;
     display: flex;
     justify-content: space-between;
+    
+    
+    
 }
 
 
 
 #toolbar .preview {
-    width: 220px;
+    min-width: 220px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -196,6 +199,12 @@ a {
     justify-content: space-between;
     align-items: center;
     column-gap: 23px;
+    
+
+    
+}
+
+.music {
     width: 100%;
 }
 
@@ -237,6 +246,36 @@ a {
 #toolbar .bar:hover .cursor {
     visibility: visible;
 }
+
+/* VOLUME SETTING */
+#toolbar .setting {
+    display: flex;
+    flex-direction: row;
+    column-gap: 18px;
+
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 13px;
+    
+    
+    
+    
+}
+
+#toolbar .volume {
+    width: 118px;
+}
+
+
+
+#toolbar .setting i:hover {
+    color: #878787;
+    cursor: default;
+
+
+}
+
 
 
 
