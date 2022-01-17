@@ -141,3 +141,41 @@ a {
 #toolbar .add i:first-child{
     margin-right: 10px;
 }
+
+/* TOOLBAR-CENTRO */
+#toolbar .player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+#toolbar .controls {
+    height: 50px;
+}
+
+#toolbar .controls a {
+    font-size: 13px;
+    padding: 0px 10px;
+    vertical-align: middle;
+}
+
+
+
+
+
+#toolbar .controls a:nth-child(3) {
+    font-size: 30px;
+    padding: 0px 20px;
+    
+}
+
+
+#toolbar .controls a:hover:nth-child(3) {
+
+    font-size: 35px;
+}
+
+
+
