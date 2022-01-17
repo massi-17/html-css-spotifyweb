@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+  
+
+.wrapper {
+    display: flex;
+    height: calc(100vh - 85px);
+    width: 100%;
+    overflow: hidden;
+  
+    
+}
+
+.sidebar {
+    width: 220px;
+    background-color: black;
+    
+}
+
+.upgrade {
+    background-color: #080B12;
+    height: 85px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+
+
+}
+
+.main-section {
+    width: calc(100vw - 220px);
+    height: calc(100vh - 85px - 85px);
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+.main-content {
+    background-color: #141922;
+    height: 100%;
+}
+
+.toolbar {
+    min-height: 85px;
+    width: 100%;
+    opacity: 0.9;
+    background-color: #161616;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
