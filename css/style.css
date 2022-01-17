@@ -12,7 +12,8 @@
     display: flex;
     height: calc(100vh - 85px);
     width: 100%;
-    overflow: hidden;
+    
+    
   
     
 }
@@ -23,32 +24,37 @@
     
 }
 
+
+.main-section {
+    /* width: calc(100vw - 220px); */
+    flex-grow: 1;
+    height: calc(100vh - 85px);
+    padding-top: 85px;
+    display: flex;   
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+
+}
+
 .upgrade {
-    background-color: #080B12;
+    /* background-color: #080B12;  */
     height: 85px;
     position: fixed;
     top: 0;
     width: 100%;
-
-
-
-}
-
-.main-section {
-    width: calc(100vw - 220px);
-    height: calc(100vh - 85px - 85px);
-    margin-top: 85px;
-    display: flex;
-    flex-direction: column;
+    background-color: rgba(08, 11, 18, 0.9); 
+    
 
 
 }
-
 
 
 .main-content {
-    background-color: #141922;
-    height: 100%;
+    background-color: #141922;    
+    width: calc(100vw - 220px); 
+    
 }
 
 .toolbar {
