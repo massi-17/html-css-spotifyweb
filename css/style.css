@@ -6,6 +6,14 @@
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
+.greytext {
+    color: #878787;
+}
+
   
 
 #wrapper {
@@ -80,6 +88,56 @@
 
 #toolbar .preview {
     width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
     
 
+}
+
+#toolbar .preview img {
+    width: 43px;
+    height: 43px;
+    display: block;
+    margin-left: 15px;
+ 
+}
+
+#toolbar .song-details {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: -15px;
+}
+
+#toolbar .author {
+    display: block;
+    font-size: 13px;
+    
+}
+
+#toolbar .title {
+    font-size: 10px;
+    
+}
+
+#toolbar .title a {
+    color: #878787;
+}
+
+#toolbar .title a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+#toolbar .add i {
+    color: #878787;
+}
+
+#toolbar .add i:hover{
+    color: #FFFFFF;
+}
+
+#toolbar .add i:first-child{
+    margin-right: 10px;
 }
