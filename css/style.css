@@ -8,7 +8,7 @@
 
   
 
-.wrapper {
+#wrapper {
     display: flex;
     height: calc(100vh - 85px);
     width: 100%;
@@ -34,6 +34,7 @@
     flex-direction: column;
     overflow-y: auto;
     overflow-x: hidden;
+   
     
 
 }
@@ -45,7 +46,7 @@
     top: 0;
     width: 100%;
     background-color: rgba(08, 11, 18, 0.9); 
-    
+ 
 
 
 }
@@ -57,7 +58,11 @@
     
 }
 
-.toolbar {
+.debug {
+    border: 2px dashed green;
+}
+
+#toolbar {
     min-height: 85px;
     width: 100%;
     opacity: 0.9;
@@ -67,4 +72,14 @@
     bottom: 0;
     left: 0;
     z-index: 999;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#toolbar .preview {
+    width: 220px;
+    
+
 }
