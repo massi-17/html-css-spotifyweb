@@ -26,12 +26,72 @@ a {
     
 }
 
+/* SIDEBAR */
+
 .sidebar {
     width: 220px;
     background-color: black;
     flex-shrink: 0;
     
+    padding: 20px 20px;
+    
 }
+
+.sidebar .logo svg {
+    width: 130px;
+    margin-bottom: 23px;
+    
+    
+}
+
+.sidebar .menu ul li {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 14px;
+    
+    
+    
+}
+
+
+
+.sidebar .menu a {
+    color: #878787;
+    
+}
+
+.sidebar .menu a:hover {
+    color: #FFFFFF;
+}
+
+.menulink:hover path, .menulink:hover {
+    fill: white; 
+}
+
+.sidebar .active {
+    color: #FFFFFF !important;
+}
+
+.menu svg {
+    width: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .main-section {
@@ -54,7 +114,7 @@ a {
     min-height: 85px;
     position: fixed;
     top: 0;
-    right: 0;
+    
     width: 100%;
     background-color: rgba(08, 11, 18, 0.9); 
  
