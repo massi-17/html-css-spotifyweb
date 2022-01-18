@@ -79,10 +79,51 @@ a {
     margin-right: 5px;
 }
 
+.sidebar .menu ul {
+    
+    margin-bottom: 28px;
+    
+    
+    
+}
+
+/* PLAYLIST */
+
+.sidebar .playlist-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 11px;
+    
+}
+
+.sidebar .playlist a {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sidebar .playlist a, i {
+    color: #878787;
+    
+}
+
+.sidebar .playlist i {
+    font-size: 40px;
+    
+}
+
+.addplaylist:hover i, .addplaylist:hover a {
+    color: white; 
+}
 
 
 
 
+.addplaylistbutton {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
 
 
 
