@@ -161,6 +161,7 @@ a {
     
 }
 
+/* SIDEBAR FOOTER */
 .sidebar-down {
     
 }
@@ -203,7 +204,7 @@ a {
 }
 
 
-
+/* MAIN SECTION */
 
 .main-section {
     /* width: calc(100vw - 220px); */
@@ -220,20 +221,48 @@ a {
 
 }
 
-.upgrade {
-    /* background-color: #080B12;  */
+/* BANNER UPGRADE */
+
+.upgrade-banner {
+
     min-height: 85px;
     position: fixed;
     top: 0;
+    right: 0;
     
-    width: 100%;
+    width: calc(100vw - 220px); 
     background-color: rgba(08, 11, 18, 0.9); 
- 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    
 
 
 }
 
+.upgrade-banner .upgradebutton {
+    text-transform: uppercase;
+    font-size: 12px;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    width: 215px;
+}
 
+.upgradebutton:hover {
+    height: 41px;
+    width: 228px;
+    font-size: 13px;
+}
+
+
+
+/* MAIN CONTENT */
 .main-content {
     background-color: #141922;    
     width: calc(100vw - 220px); 
