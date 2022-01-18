@@ -35,6 +35,7 @@ a {
     
     padding: 20px 20px;
     
+    
 }
 
 .sidebar .logo svg {
@@ -109,7 +110,7 @@ a {
 
 .sidebar .playlist a {
     font-weight: bold;
-    font-size: 16px;
+    
 }
 
 .sidebar .playlist a, i {
@@ -133,13 +134,51 @@ a {
     display: flex;
     align-items: center;
     column-gap: 10px;
+    margin-bottom: 15px;
 }
 
+.pl-list li {
+    list-style-type: none;
+    margin-bottom: 18px;
+}
 
+.pl-list a {
+    font-size: 13px;
+    font-weight: bold;
+}
 
+.pl-list a:hover {
+    color: white !important;
+}
+.playlist {
+    
+}
 
+.menu-footer {
+    
+}
 
+.menu-footer a {
+    color: #878787;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
 
+.menu-footer:hover i, .menu-footer:hover a {
+    color: white; 
+}
+
+.menu-footer i {
+    margin-right: 5px;
+}
+
+.menu-footer .installapp {
+    border-bottom: 1px solid #878787;
+    padding-bottom: 10px;
+    
+
+}
 
 
 
