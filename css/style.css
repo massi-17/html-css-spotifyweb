@@ -235,7 +235,7 @@ a {
     
     display: flex;   
     flex-direction: column;
-    overflow: hidden;
+    overflow-y: hidden;
     background-color: #141922;
 
 }
@@ -260,6 +260,12 @@ a {
 .main-content {
     padding-left: 20px;
     padding-right: 20px;
+
+    background-color: #141922;    
+    width: calc(100vw - 220px); 
+    overflow-y: auto;
+        
+
     
 }
 
@@ -350,6 +356,11 @@ a {
     opacity: 0.9;
     
   }
+
+  .tonda {
+      border-radius: 100%;
+      overflow: hidden;
+  }
   
   .overlay {
     position: absolute;
@@ -359,6 +370,8 @@ a {
     opacity: 0;
     background-color: rgba(0, 0, 0, 0.3); 
     cursor: pointer;
+
+    
   }
   
   .card-wrapper:hover .overlay {
@@ -398,6 +411,7 @@ a {
     align-items: flex-end;
     justify-content: center;
     z-index: 55;
+    overflow: hidden;
 
 
 }
@@ -424,11 +438,7 @@ a {
 
 
 /* MAIN CONTENT */
-.main-content {
-    background-color: #141922;    
-    width: calc(100vw - 220px); 
-    
-}
+
 
 .debug {
     border: 2px dashed green;
