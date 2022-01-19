@@ -226,15 +226,43 @@ a {
     /* width: calc(100vw - 220px); */
     flex-grow: 1;
     height: calc(100vh - 85px);
-    padding-top: 85px;
+    padding-top: 100px;
     display: flex;   
     flex-direction: column;
     overflow-y: auto;
     overflow-x: hidden;
     background-color: #141922;  
-   
-    
+}
 
+.main-content .topmenu {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    column-gap: 23px;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    
+}
+
+.main-content .topmenu li:first-child::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 30px;
+    margin: 3px auto;
+    background-color: greenyellow;
+    
+}
+
+.main-content .topmenu a {
+    color: #878787;
+}
+
+.main-content .topmenu a:hover {
+    color: #FFFFFF;
 }
 
 /* BANNER UPGRADE */
