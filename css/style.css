@@ -40,6 +40,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
 }
 
 
@@ -50,6 +51,9 @@ a {
     margin-bottom: 23px;
     
     
+}
+.sidebar-up {
+    height: 100%;
 }
 
 .menuflex {
@@ -110,7 +114,7 @@ a {
 /* PLAYLIST */
 
 .playlist {
-    
+    height: 60%;
 }
 
 .sidebar .playlist-title {
@@ -155,8 +159,9 @@ a {
 }
 
 .pl-list {
-    overflow-y: scroll;
+    overflow-y: auto;
     flex-grow: 1;
+    height: 80%;
 }
 
 .pl-list li {
@@ -264,6 +269,46 @@ a {
 .main-content .topmenu a:hover {
     color: #FFFFFF;
 }
+
+/* MAIN PLAYLIST */
+
+.section-playlist .title-section {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-playlist ul {
+    display: flex;
+    column-gap: 15px;
+
+}
+
+.section-playlist ul p {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.section-playlist .refmusic {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 8px;
+
+}
+
+.section-playlist .submusic {
+    color: #878787;
+    font-size: 12px;
+
+}
+
+.section-playlist ul img {
+    width: 175px;
+    margin-bottom: 8px;
+    
+}
+
+
 
 /* BANNER UPGRADE */
 
