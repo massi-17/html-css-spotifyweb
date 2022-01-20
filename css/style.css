@@ -264,6 +264,8 @@ a {
     background-color: #141922;    
     width: calc(100vw - 220px); 
     overflow-y: auto;
+    overflow-x: hidden;
+    
         
 
     
@@ -404,7 +406,7 @@ a {
     top: 0;
     right: 0;
     
-    width: calc(100vw - 220px); 
+    width: calc(100% - 220px); 
     background-color: rgba(08, 11, 18, 0.9); 
     display: flex;
     flex-direction: column;
