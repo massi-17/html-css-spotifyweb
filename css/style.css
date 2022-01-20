@@ -226,13 +226,13 @@ img {
 }
 
 .card__body {
-    padding: 20px 0 10px;
+    padding: 15px 0 10px;
     text-align: center;
     font-weight: bold;
 }
 
 .card__title {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 1.2em;
     margin-bottom: 4px;
 }
@@ -247,7 +247,7 @@ img {
 }
 
 .card__header i {
-    font-size: 50px;
+    font-size: min(70px,4vw);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -259,6 +259,7 @@ img {
 
 .card__header img {
     display: block;
+    width: 100%;
 }
 
 .card__header::after {
