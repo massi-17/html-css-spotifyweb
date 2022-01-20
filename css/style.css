@@ -5,211 +5,129 @@
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
-
 a {
     text-decoration: none;
 }
-
 .greytext {
     color: #878787;
 }
-
-  
-
 #wrapper {
     display: flex;
     height: calc(100vh - 85px);
     width: 100%;
-    
-    
-  
-    
 }
-
 /* SIDEBAR */
-
 .sidebar {
     width: 220px;
     background-color: black;
     flex-shrink: 0;
-    
-    
-   
     padding: 20px 20px 10px 20px;
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
 }
-
-
-
-
 .sidebar .logo svg {
     width: 130px;
     margin-bottom: 23px;
-    
-    
 }
 .sidebar-up {
     height: 100%;
 }
-
 .menuflex {
     display: flex;
     align-items: center;
     column-gap: 10px;
-    
     flex-direction: row;
-    
 }
-
 .sidebar .menu ul li {
     list-style-type: none;
     font-weight: bold;
     font-size: 13px;
     margin-bottom: 10px;
-    
-    
-    
-    
 }
-
-
-
 .sidebar .menu a {
     color: #878787;
-    
 }
-
 .sidebar .menu a:hover {
     color: #FFFFFF;
 }
-
 .menulink:hover path, .menulink:hover {
-    fill: white; 
+    fill: white;
 }
-
 .sidebar .active {
     color: #FFFFFF !important;
-    
-    
 }
-
 .menu svg {
     width: 25px;
-    
-    
 }
-
 .sidebar .menu ul {
-    
     margin-bottom: 28px;
-    
-    
-    
 }
-
 /* PLAYLIST */
-
 .playlist {
     height: 60%;
 }
-
 .sidebar .playlist-title {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
     margin-bottom: 11px;
-    
 }
-
 .sidebar .playlist a {
     font-weight: bold;
-    
 }
-
 .sidebar .playlist a, i {
     color: #878787;
-    
 }
-
 .sidebar .playlist i {
     font-size: 40px;
-    
 }
-
 .addplaylist:hover i, .addplaylist:hover a {
-    color: white; 
+    color: white;
 }
-
-
-
-.addplaylist {
-    
-    
-}
-
+.addplaylist {}
 .addplaylistbutton {
     display: flex;
     align-items: center;
     column-gap: 10px;
     margin-bottom: 15px;
 }
-
 .pl-list {
     overflow-y: auto;
     flex-grow: 1;
     height: 80%;
 }
-
 .pl-list li {
     list-style-type: none;
     margin-bottom: 18px;
-    
 }
-
 .pl-list a {
     font-size: 13px;
     font-weight: bold;
 }
-
 .pl-list a:hover {
     color: white !important;
 }
-.pl-list {
-    
-}
-
+.pl-list {}
 /* SIDEBAR FOOTER */
-.sidebar-down {
-    
-}
-
+.sidebar-down {}
 .sidebar-down a {
     color: #878787;
     font-size: 13px;
     font-weight: bold;
-    
 }
-
 .sidebar-down:hover i, .sidebar-down:hover a {
-    color: white; 
+    color: white;
 }
-
 .sidebar-down i {
     margin-right: 5px;
 }
-
 .sidebar-down .installapp {
     border-bottom: 1px solid #878787;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    
-
 }
-
 .sidebar-down .utente {
     font-size: 14px;
     font-weight: bold;
@@ -217,29 +135,23 @@ a {
     align-items: center;
     column-gap: 5px;
 }
-
 .sidebar-down svg {
     width: 20px;
     background-color: #878787;
     border-radius: 100%;
 }
-
-
 /* MAIN SECTION */
-
 .main-section {
     /* width: calc(100vw - 220px); */
     flex-grow: 1;
     height: calc(100vh - 85px);
     padding-top: 85px;
-    
-    display: flex;   
+    width: calc(100vw - 220px);
+    display: flex;
     flex-direction: column;
     overflow-y: hidden;
     background-color: #141922;
-
 }
-
 .main-content .topmenu {
     text-transform: uppercase;
     font-weight: bold;
@@ -252,25 +164,14 @@ a {
     row-gap: 25px;
     margin-bottom: 30px;
     margin-top: 10px;
-
-    
-    
 }
-
 .main-content {
     padding-left: 20px;
     padding-right: 20px;
-
-    background-color: #141922;    
-    width: calc(100vw - 220px); 
+    background-color: #141922;
     overflow-y: auto;
     overflow-x: hidden;
-    
-        
-
-    
 }
-
 .main-content .topmenu li:first-child::after {
     content: "";
     display: block;
@@ -278,39 +179,31 @@ a {
     width: 30px;
     margin: 3px auto;
     background-color: greenyellow;
-    
 }
-
 .main-content .topmenu a {
     color: #878787;
 }
-
 .main-content .topmenu a:hover {
     color: #FFFFFF;
 }
-
 /* MAIN PLAYLIST */
 .section-playlist .playlistmain {
     margin-bottom: 30px;
 }
-
 .section-playlist .title-section {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 25px;
 }
-
 .section-playlist .sottotitolo {
     font-size: 12px;
     color: #878787;
     font-weight: bold;
     margin-bottom: 25px;
 }
-
 .title-section.sub {
     margin-bottom: 5px;
 }
-
 .section-playlist ul {
     display: flex;
     column-gap: 15px;
@@ -319,105 +212,72 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
     justify-content: flex-start;
+    align-items: center;
 }
-
 .section-playlist ul p {
     text-align: center;
     font-weight: bold;
-
 }
-
 .section-playlist .refmusic {
     color: white;
     font-size: 14px;
     margin-bottom: 8px;
     margin-top: 10px;
-    
-
 }
-
 .section-playlist .submusic {
     color: #878787;
     font-size: 12px;
-
 }
-
-
-
-
 .card-wrapper {
     position: relative;
     width: 100%;
     max-width: 175px;
-  }
-  
-  .image {
+}
+.image {
     display: block;
     width: 100%;
     height: auto;
     opacity: 0.9;
-    
-  }
-
-  .tonda {
-      border-radius: 100%;
-      overflow: hidden;
-  }
-  
-  .overlay {
+}
+.tonda {
+    border-radius: 100%;
+    overflow: hidden;
+}
+.overlay {
     position: absolute;
     top: 0;
     height: 100%;
     width: 100%;
     opacity: 0;
-    background-color: rgba(0, 0, 0, 0.3); 
+    background-color: rgba(0, 0, 0, 0.3);
     cursor: pointer;
-
-    
-  }
-  
-  .card-wrapper:hover .overlay {
+}
+.card-wrapper:hover .overlay {
     opacity: 1;
-  }
-  
-  .icon {
+}
+.icon {
     color: white;
     font-size: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-   
-  }
-
-
-
-
-
-
-
-
+}
 /* BANNER UPGRADE */
-
 .upgrade-banner {
-
     min-height: 85px;
     position: fixed;
     top: 0;
     right: 0;
-    
-    width: calc(100% - 220px); 
-    background-color: rgba(08, 11, 18, 0.9); 
+    width: calc(100% - 220px);
+    background-color: rgba(08, 11, 18, 0.9);
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
     z-index: 55;
     overflow: hidden;
-
-
 }
-
 .upgrade-banner .upgradebutton {
     text-transform: uppercase;
     font-size: 12px;
@@ -430,28 +290,19 @@ a {
     height: 38px;
     width: 215px;
 }
-
 .upgradebutton:hover {
     height: 41px;
     width: 228px;
     font-size: 13px;
 }
-
-
-
 /* MAIN CONTENT */
-
-
 .debug {
     border: 2px dashed green;
 }
-
 /* TOOLBAR */
-
 #toolbar {
     height: 85px;
     width: 100vw;
-    
     opacity: 0.9;
     background-color: #161616;
     overflow: hidden;
@@ -462,79 +313,54 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
-    
-    
 }
-
-
-
 #toolbar .preview {
     min-width: 220px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    
-
 }
-
 #toolbar .preview img {
     width: 43px;
     height: 43px;
     display: block;
     margin-left: 15px;
- 
 }
-
 #toolbar .song-details {
     font-size: 13px;
     font-weight: bold;
     margin-left: -15px;
 }
-
 #toolbar .author {
     display: block;
     font-size: 13px;
-    
 }
-
 #toolbar .title {
     font-size: 10px;
-    
 }
-
 #toolbar .title a {
     color: #878787;
 }
-
 #toolbar .title a:hover {
     color: #FFFFFF;
     text-decoration: underline;
 }
-
 #toolbar .add {
     display: flex;
     flex-direction: row;
-    
     flex-wrap: wrap;
 }
-
 #toolbar .add i {
     color: #878787;
 }
-
-#toolbar .add i:hover{
+#toolbar .add i:hover {
     color: #FFFFFF;
 }
-
-#toolbar .add i:first-child{
+#toolbar .add i:first-child {
     margin-right: 10px;
 }
-
 /* TOOLBAR-CENTRO */
-
 /* PULSANTI */
 #toolbar .player {
     display: flex;
@@ -543,25 +369,17 @@ a {
     align-items: center;
     min-width: calc(122px + 30%)
 }
-
 #toolbar .controls {
     display: flex;
     justify-content: space-around;
     align-items: center;
     column-gap: 22px;
-    
     margin-bottom: 15px;
-    
 }
-
 #toolbar .controls i {
-    
     color: white;
     font-size: 14px;
-}  
-
-
-
+}
 #play {
     margin: 0 15px;
     width: 35px;
@@ -569,110 +387,68 @@ a {
     font-size: 30px !important;
     text-align: center;
     line-height: 35px;
-  
-   
-    
-}  
-
+}
 #play:hover {
     font-size: 35px !important;
-    
 }
-
-
 /* TIMELINE */
 #toolbar .timeline {
     display: flex;
     justify-content: space-between;
     align-items: center;
     column-gap: 23px;
-    
-
-    
 }
-
 .music {
     width: 100%;
 }
-
 #toolbar .time {
     font-size: 10px;
 }
-
-#toolbar .bar{
+#toolbar .bar {
     flex-grow: 1;
     height: 3px;
-    background-color: rgb(190, 190, 190,0.3);
+    background-color: rgb(190, 190, 190, 0.3);
 }
-
-#toolbar .current-time{
+#toolbar .current-time {
     background-color: #c1c1c1;
     width: 28%;
-    height: 3px;  
-    position: relative; 
+    height: 3px;
+    position: relative;
     border-radius: 3px;
 }
-
-#toolbar .cursor{
+#toolbar .cursor {
     width: 12px;
     height: 12px;
     border-radius: 100%;
     background-color: white;
     position: absolute;
-    top:0;
+    top: 0;
     right: 0;
-    transform: translate(50%,-40%);
+    transform: translate(50%, -40%);
     z-index: 1;
-    visibility: hidden; 
+    visibility: hidden;
 }
-
 #toolbar .bar:hover .current-time {
     background-color: greenyellow;
 }
-
 #toolbar .bar:hover .cursor {
     visibility: visible;
 }
-
 /* VOLUME SETTING */
 #toolbar .setting {
     display: flex;
     flex-direction: row;
     column-gap: 18px;
-
     justify-content: space-around;
     align-items: center;
     padding: 0 10px;
     font-size: 13px;
- 
     min-width: 150px;
-    
-    
-    
-    
-    
-    
-    
-    
 }
-
 #toolbar .volume {
     width: 118px;
 }
-
-
-
 #toolbar .setting i:hover {
     color: white;
     cursor: default;
-
-
 }
-
-
-
-
-
-
-
-
